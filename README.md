@@ -1,4 +1,4 @@
-# cardGame
+# Card Game
 
 Tiny card flip game developed in react native.
 
