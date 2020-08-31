@@ -62,9 +62,14 @@ const GameScreen = () => {
 
     let pendingCards = tmpCards.filter((card) => (!card.isDone ? card : ''));
     if (pendingCards.length == 0) {
-      Alert.alert('congratulation', 'You have completed the game', [{ text: 'OK', onPress: () => handleReset() }], {
-        cancelable: false,
-      });
+      Alert.alert(
+        'Congratulation!',
+        `You win this game by ${count} steps!`,
+        [{ text: 'Try another round', onPress: () => handleReset() }],
+        {
+          cancelable: false,
+        }
+      );
     }
   };
 

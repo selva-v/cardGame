@@ -22,8 +22,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#000',
-    //alignItems: 'center',
-    //padding: 10,
   },
   appTitle: {
     textAlign: 'center',
